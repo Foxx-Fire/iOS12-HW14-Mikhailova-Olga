@@ -10,9 +10,18 @@
 		0BF143462B705C4300A64786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143452B705C4300A64786 /* AppDelegate.swift */; };
 		0BF143482B705C4300A64786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143472B705C4300A64786 /* SceneDelegate.swift */; };
 		0BF1434A2B705C4300A64786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143492B705C4300A64786 /* ViewController.swift */; };
-		0BF1434D2B705C4300A64786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF1434B2B705C4300A64786 /* Main.storyboard */; };
 		0BF1434F2B705C4500A64786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF1434E2B705C4500A64786 /* Assets.xcassets */; };
 		0BF143522B705C4500A64786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF143502B705C4500A64786 /* LaunchScreen.storyboard */; };
+		0BF143602B705F7500A64786 /* MyAlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1435F2B705F7500A64786 /* MyAlbumCollectionViewCell.swift */; };
+		0BF143622B705F8C00A64786 /* SharedAlbumsCollectionViewCel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143612B705F8C00A64786 /* SharedAlbumsCollectionViewCel.swift */; };
+		0BF143642B705FA200A64786 /* MediaTypesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143632B705FA200A64786 /* MediaTypesCollectionViewCell.swift */; };
+		0BF143662B705FB700A64786 /* UtilitiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143652B705FB700A64786 /* UtilitiesCollectionViewCell.swift */; };
+		0BF143682B705FCC00A64786 /* HeaderSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143672B705FCC00A64786 /* HeaderSupplementaryView.swift */; };
+		0BF1436A2B705FE000A64786 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143692B705FE000A64786 /* MainTabBarViewController.swift */; };
+		0BF1436C2B705FF600A64786 /* LibraryTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1436B2B705FF600A64786 /* LibraryTabBarViewController.swift */; };
+		0BF1436E2B70600A00A64786 /* ForYouTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1436D2B70600A00A64786 /* ForYouTabBarViewController.swift */; };
+		0BF143702B70602C00A64786 /* AlbumsTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1436F2B70602C00A64786 /* AlbumsTabBarViewController.swift */; };
+		0BF143722B70605400A64786 /* SearchTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143712B70605400A64786 /* SearchTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +29,19 @@
 		0BF143452B705C4300A64786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BF143472B705C4300A64786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0BF143492B705C4300A64786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0BF1434C2B705C4300A64786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BF1434E2B705C4500A64786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF143512B705C4500A64786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BF143532B705C4500A64786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF1435F2B705F7500A64786 /* MyAlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		0BF143612B705F8C00A64786 /* SharedAlbumsCollectionViewCel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAlbumsCollectionViewCel.swift; sourceTree = "<group>"; };
+		0BF143632B705FA200A64786 /* MediaTypesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTypesCollectionViewCell.swift; sourceTree = "<group>"; };
+		0BF143652B705FB700A64786 /* UtilitiesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesCollectionViewCell.swift; sourceTree = "<group>"; };
+		0BF143672B705FCC00A64786 /* HeaderSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSupplementaryView.swift; sourceTree = "<group>"; };
+		0BF143692B705FE000A64786 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		0BF1436B2B705FF600A64786 /* LibraryTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTabBarViewController.swift; sourceTree = "<group>"; };
+		0BF1436D2B70600A00A64786 /* ForYouTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouTabBarViewController.swift; sourceTree = "<group>"; };
+		0BF1436F2B70602C00A64786 /* AlbumsTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTabBarViewController.swift; sourceTree = "<group>"; };
+		0BF143712B70605400A64786 /* SearchTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,72 @@
 		0BF143442B705C4300A64786 /* iOS12-HW14-Mikhailova-Olga */ = {
 			isa = PBXGroup;
 			children = (
+				0BF143592B705C8700A64786 /* App */,
+				0BF1435A2B705C9900A64786 /* Sorces */,
+				0BF1435B2B705CAB00A64786 /* Resources */,
+			);
+			path = "iOS12-HW14-Mikhailova-Olga";
+			sourceTree = "<group>";
+		};
+		0BF143592B705C8700A64786 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				0BF143452B705C4300A64786 /* AppDelegate.swift */,
 				0BF143472B705C4300A64786 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0BF1435A2B705C9900A64786 /* Sorces */ = {
+			isa = PBXGroup;
+			children = (
+				0BF1435E2B705F4600A64786 /* TabBar */,
+				0BF1435D2B705F3E00A64786 /* Cells */,
+				0BF1435C2B705F3400A64786 /* Model */,
 				0BF143492B705C4300A64786 /* ViewController.swift */,
-				0BF1434B2B705C4300A64786 /* Main.storyboard */,
+			);
+			path = Sorces;
+			sourceTree = "<group>";
+		};
+		0BF1435B2B705CAB00A64786 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				0BF1434E2B705C4500A64786 /* Assets.xcassets */,
 				0BF143502B705C4500A64786 /* LaunchScreen.storyboard */,
 				0BF143532B705C4500A64786 /* Info.plist */,
 			);
-			path = "iOS12-HW14-Mikhailova-Olga";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0BF1435C2B705F3400A64786 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0BF1435D2B705F3E00A64786 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0BF1435F2B705F7500A64786 /* MyAlbumCollectionViewCell.swift */,
+				0BF143612B705F8C00A64786 /* SharedAlbumsCollectionViewCel.swift */,
+				0BF143632B705FA200A64786 /* MediaTypesCollectionViewCell.swift */,
+				0BF143652B705FB700A64786 /* UtilitiesCollectionViewCell.swift */,
+				0BF143672B705FCC00A64786 /* HeaderSupplementaryView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0BF1435E2B705F4600A64786 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0BF143692B705FE000A64786 /* MainTabBarViewController.swift */,
+				0BF1436B2B705FF600A64786 /* LibraryTabBarViewController.swift */,
+				0BF1436D2B70600A00A64786 /* ForYouTabBarViewController.swift */,
+				0BF1436F2B70602C00A64786 /* AlbumsTabBarViewController.swift */,
+				0BF143712B70605400A64786 /* SearchTabBarViewController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +202,6 @@
 			files = (
 				0BF143522B705C4500A64786 /* LaunchScreen.storyboard in Resources */,
 				0BF1434F2B705C4500A64786 /* Assets.xcassets in Resources */,
-				0BF1434D2B705C4300A64786 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +212,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF143702B70602C00A64786 /* AlbumsTabBarViewController.swift in Sources */,
+				0BF1436E2B70600A00A64786 /* ForYouTabBarViewController.swift in Sources */,
+				0BF143602B705F7500A64786 /* MyAlbumCollectionViewCell.swift in Sources */,
+				0BF143642B705FA200A64786 /* MediaTypesCollectionViewCell.swift in Sources */,
+				0BF143622B705F8C00A64786 /* SharedAlbumsCollectionViewCel.swift in Sources */,
+				0BF1436A2B705FE000A64786 /* MainTabBarViewController.swift in Sources */,
 				0BF1434A2B705C4300A64786 /* ViewController.swift in Sources */,
+				0BF143722B70605400A64786 /* SearchTabBarViewController.swift in Sources */,
 				0BF143462B705C4300A64786 /* AppDelegate.swift in Sources */,
+				0BF143682B705FCC00A64786 /* HeaderSupplementaryView.swift in Sources */,
+				0BF143662B705FB700A64786 /* UtilitiesCollectionViewCell.swift in Sources */,
+				0BF1436C2B705FF600A64786 /* LibraryTabBarViewController.swift in Sources */,
 				0BF143482B705C4300A64786 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0BF1434B2B705C4300A64786 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BF1434C2B705C4300A64786 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0BF143502B705C4500A64786 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +372,6 @@
 				INFOPLIST_FILE = "iOS12-HW14-Mikhailova-Olga/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +398,6 @@
 				INFOPLIST_FILE = "iOS12-HW14-Mikhailova-Olga/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
