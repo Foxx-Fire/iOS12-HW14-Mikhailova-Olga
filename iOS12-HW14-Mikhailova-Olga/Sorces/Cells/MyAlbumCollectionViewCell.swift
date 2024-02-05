@@ -38,15 +38,8 @@ class MyAlbumCollectionViewCell: UICollectionViewCell {
         return label
     }()
     
-    //    lazy var stack: UIStackView = {
-    //        let stack = UIStackView()
-    //        stack.axis = .vertical
-    //        return stack
-    //    }()
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
         setupHierarchy()
         setupLayout()
     }
@@ -57,7 +50,6 @@ class MyAlbumCollectionViewCell: UICollectionViewCell {
     
     private func setupHierarchy() {
         backgroundColor = .white
-        //  contentView.addSubview(stack)
         addSubview(albumsImageView)
         addSubview(categoryLabel)
         addSubview(countLabel)

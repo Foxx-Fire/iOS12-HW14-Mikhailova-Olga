@@ -36,8 +36,8 @@ class AlbumsTabBarViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Albums"
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationItem.title = "Albums"
         setupHierarchy()
         setupLayout()
     }
@@ -52,7 +52,7 @@ class AlbumsTabBarViewController: UIViewController {
     private func setupLayout() {
         NSLayoutConstraint.activate([
             
-            collectionView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
+            collectionView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 30),
             collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -10),
             collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
             collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0)
