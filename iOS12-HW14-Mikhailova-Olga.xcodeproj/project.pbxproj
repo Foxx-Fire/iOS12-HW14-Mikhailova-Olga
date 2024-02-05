@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0BF143462B705C4300A64786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143452B705C4300A64786 /* AppDelegate.swift */; };
 		0BF143482B705C4300A64786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143472B705C4300A64786 /* SceneDelegate.swift */; };
-		0BF1434A2B705C4300A64786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143492B705C4300A64786 /* ViewController.swift */; };
+		0BF1434A2B705C4300A64786 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF143492B705C4300A64786 /* Model.swift */; };
 		0BF1434F2B705C4500A64786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF1434E2B705C4500A64786 /* Assets.xcassets */; };
 		0BF143522B705C4500A64786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF143502B705C4500A64786 /* LaunchScreen.storyboard */; };
 		0BF143602B705F7500A64786 /* MyAlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1435F2B705F7500A64786 /* MyAlbumCollectionViewCell.swift */; };
@@ -28,7 +28,7 @@
 		0BF143422B705C4300A64786 /* iOS12-HW14-Mikhailova-Olga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS12-HW14-Mikhailova-Olga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF143452B705C4300A64786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BF143472B705C4300A64786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0BF143492B705C4300A64786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BF143492B705C4300A64786 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0BF1434E2B705C4500A64786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF143512B705C4500A64786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BF143532B705C4500A64786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 				0BF1435E2B705F4600A64786 /* TabBar */,
 				0BF1435D2B705F3E00A64786 /* Cells */,
 				0BF1435C2B705F3400A64786 /* Model */,
-				0BF143492B705C4300A64786 /* ViewController.swift */,
+				0BF143492B705C4300A64786 /* Model.swift */,
 			);
 			path = Sorces;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 				0BF143642B705FA200A64786 /* MediaTypesCollectionViewCell.swift in Sources */,
 				0BF143622B705F8C00A64786 /* SharedAlbumsCollectionViewCel.swift in Sources */,
 				0BF1436A2B705FE000A64786 /* MainTabBarViewController.swift in Sources */,
-				0BF1434A2B705C4300A64786 /* ViewController.swift in Sources */,
+				0BF1434A2B705C4300A64786 /* Model.swift in Sources */,
 				0BF143722B70605400A64786 /* SearchTabBarViewController.swift in Sources */,
 				0BF143462B705C4300A64786 /* AppDelegate.swift in Sources */,
 				0BF143682B705FCC00A64786 /* HeaderSupplementaryView.swift in Sources */,

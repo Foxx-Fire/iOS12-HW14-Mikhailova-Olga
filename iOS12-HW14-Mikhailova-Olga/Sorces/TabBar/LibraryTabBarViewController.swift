@@ -1,8 +1,16 @@
 //
 //  LibraryTabBarViewController.swift
-//  iOS12-HW14-Mikhailova-Olga
+//  HW14
 //
-//  Created by mbpro2.0/16/512 on 05.02.2024.
+//  Created by mbpro2.0/16/512 on 03.02.2024.
 //
 
-import Foundation
+import UIKit
+
+class LibraryTabBarViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .white
+    }
+}
